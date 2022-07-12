@@ -1,3 +1,11 @@
+# Empezamos por ejecutar los siguientes Comandos en la terminal desde la carpeta del proyecto
+  $ npm i
+	$ npm install react react-redux redux-logger react-bootstrap
+
+## Ahora si corremos nuestra APP 
+  
+  $ npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
