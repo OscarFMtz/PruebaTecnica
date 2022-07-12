@@ -1,0 +1,40 @@
+.TodoInput {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.TodoInput input {
+  border-radius: 8px;
+  background: #f7f1f1;
+  padding: 0 1.5em;
+  font-size: initial;
+  margin: 8px;
+  width: 250px;
+  border: 1px solid aqua
+}
+.TodoInput button {
+  padding: 0 1.3rem;
+  border-radius: 8px;
+  border: none;
+  background: red;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background 0.4s ease-out;
+  outline: none;
+}
+.TodoInput button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.TodoInput input,
+.TodoInput button {
+  font-family: "Quicksand", sans-serif;
+  height: 3rem;
+}
