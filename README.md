@@ -1,5 +1,5 @@
 # Empezamos por ejecutar los siguientes Comandos en la terminal desde la carpeta del proyecto
-  $ npm i.\
+  $ npm i \
   $ npm install react react-redux redux-logger react-bootstrap
 
 ## Ahora si corremos nuestra APP 
